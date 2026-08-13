@@ -1,8 +1,22 @@
 # 🚀 Material Glass Speed Meter
 
-A lightweight and modern floating Windows network speed and system monitor.
+> A lightweight, modern floating network speed and system monitor for Windows.
+
+## 📥 Download
+
+### ⭐ Latest Version
+
+**[⬇️ Download Speed Meter](../../releases/latest)**
+
+No Python installation is required for the EXE version.
+
+---
+
+## 🖥️ Preview
 
 ![Material Glass Speed Meter](screenshot.png)
+
+---
 
 ## ✨ Features
 
@@ -11,9 +25,9 @@ A lightweight and modern floating Windows network speed and system monitor.
 - 🧠 CPU Usage
 - 💾 RAM Usage
 - 🔋 Battery Percentage
-- 📊 Today's Download / Upload Data
+- 📊 Today's Download / Upload / Total Data
 - 📌 Pin / Unpin
-- 🖱️ Drag to Move
+- 🖱️ Drag Anywhere to Move
 - ↘️ Drag to Resize
 - 🔒 Lock Position
 - 🚀 Windows Startup
@@ -25,20 +39,59 @@ A lightweight and modern floating Windows network speed and system monitor.
 - ↔️ Padding Control
 - 🔤 Font Size Control
 - 💾 Settings Saved Automatically
-- 📅 Daily Data Usage Reset
+- 📅 Daily Data Usage
 
-## 🖥️ Screenshot
+---
 
-The widget provides a compact floating monitor for Windows.
+## 📊 Data Usage
 
-## 📦 Requirements
+The app tracks:
 
-- Windows 10 / Windows 11
-- Python 3.13+ (for running from source)
+- Today's Download
+- Today's Upload
+- Total Data
 
-## 🔧 Installation
+The daily counter automatically starts fresh when a new day begins.
 
-Install the required packages:
+---
+
+## 🖱️ Controls
+
+### Move
+
+Hold the left mouse button anywhere on the widget and drag.
+
+### Resize
+
+Drag the `◢` handle in the bottom-right corner.
+
+### Right Click
+
+Right-click the widget to access:
+
+- 📌 Pin / Unpin
+- 🔒 Lock Position
+- 🚀 Windows Startup
+- 📊 Today's Data Usage
+- 📏 Size
+- ↔️ Padding
+- 🎨 Colors
+- 🌫️ Transparency
+- 🔤 Font Size
+- ❌ Exit
+
+---
+
+## 🪟 Windows Support
+
+- Windows 10
+- Windows 11
+
+---
+
+## 📦 Run From Source
+
+Install the required package:
 
 ```bash
 pip install psutil
